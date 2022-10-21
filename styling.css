@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+
+}
+nav{
+display: flex;
+justify-content: space-between;
+margin: 20px
+}
+
+.nav-list{
+display: flex;
+}
+
+li{
+padding: 0 30px;
+text-decoration: none;
+list-style: none;
+}
+
+.main {
+background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("school.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+background-color: grey;
+}
+
+.main-heading{
+font-size: 45px;
+color: white;
+font-weight: 900;
+margin-bottom: 8px;
+}
+
+.main-para{
+color: white;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.main-button{
+padding: 15px 34px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+cursor: pointer;
+}
+
+.image img{
+height: 400x;
+width: 400px;
+}
+
+#about {
+display: flex;
+justify-content: space-between;
+display: flex;
+margin: 25px 100px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.about-heading {
+display: flex;
+justify-content: center;
+margin: 45px 0px 0px 0px;
+font-size: 40px;
+font-weight: 900;
+color: black;
+}
+
+.abouth {
+font-size: 30px;
+font-weight: 700;
+}
+
+.aboutp{
+margin-top: 5px;
+font-size: 18px;
+}
+
+.about1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.about2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.aboutp2 {
+margin-right: 52px;
+}
+
+.about-button{
+padding: 10px 25px;
+    font-size: 21px;
+    outline: none;
+    border: none;
+    background-color: #e96f35;
+    border-radius: 12px;
+    margin-top: 14px;
+}
+
+
+.admission {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+
+form{
+display: flex;
+flex-direction: column;
+}
+
+input{
+    padding: 12px 170px 12px 10px;
+margin: 10px 50px;
+}
+
+.form-button {
+    padding: 10px 15px;
+    font-size: 21px;
+    outline: none;
+    border: none;
+    background-color: #e96f35;
+    border-radius: 12px;
+    margin-top: 14px;
+    width: 130px;
+    margin-left: 48px;
+}
+
+.formh {
+margin-left: 48px;
+}
+
+h4 {
+font-size: 28px;
+}
+
+h6 {
+    font-size: 20px;
+padding-top: 4px;
+    font-weight: 500;
+}
+
+table{
+display: flex;
+margin: 20px;
+justify-content: center;
+margin-top: 40px;
+}
+
+td{
+padding: 15px;
+}
+
+td img {
+box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
